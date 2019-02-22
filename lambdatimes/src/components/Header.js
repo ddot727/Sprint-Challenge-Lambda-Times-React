@@ -49,7 +49,9 @@ const Header = () => {
     <Header>
 
       <Date> SMARCH 32, 2018 </Date>
+      
       <h1>Lambda Times</h1>
+      
       <Temp> 98° </Temp>
 
     </Header>
