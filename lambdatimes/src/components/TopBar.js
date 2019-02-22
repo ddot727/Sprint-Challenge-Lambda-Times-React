@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const TopBar = styled.div`
+const TopBarStylized = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
@@ -72,7 +72,7 @@ const ContainerRight = styled.div `
 
 const TopBar = () => {
   return (
-    <TopBar>
+    <TopBarStylized>
       <Container>
         
         <ContainerLeft>
@@ -93,7 +93,7 @@ const TopBar = () => {
         
         </ContainerRight>
       </Container>
-    </TopBar>
+    </TopBarStylized>
   );
 };
 

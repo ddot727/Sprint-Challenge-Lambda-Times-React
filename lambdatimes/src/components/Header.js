@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Header = styled.div`
+const HeadStyle = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,6 +12,7 @@ const Header = styled.div`
   height: 120px;
   margin-top: 44px;
   padding-bottom: 15px;
+  
   h1 {
     font-size: 60px;
     font-family: Didot, serif;
@@ -20,12 +21,14 @@ const Header = styled.div`
     text-align: center;
     color: #000;
   }
+  
   span {
     align-self: flex-end;
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 1px;
   }
+  
   @media (min-width: 1280px) {
     width: 1280px;
   }
@@ -46,7 +49,7 @@ const Temp = styled.span`
 
 const Header = () => {
   return (
-    <Header>
+    <HeadStyle>
 
       <Date> SMARCH 32, 2018 </Date>
       
@@ -54,7 +57,7 @@ const Header = () => {
       
       <Temp> 98° </Temp>
 
-    </Header>
+    </HeadStyle>
   );
 };
 
