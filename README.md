@@ -29,9 +29,25 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+Proptypes are used to make sure the right data is being passed through props.
+
 - [ ] Describe a life-cycle event in React?
+
+A life-cycle event in React is what a component goes through throughout it's life. It can be broken down to  Mounting->Updating->Unmounting or MUU.
+The Mounting phase is the component's birth where a constructor is built, render is invoked and componentDidMount is also invoked. The Updating phase is when a component "grows" and can be updated using setState and render is invoked again. The Unmounting phase is the component's death where the app is removed and clean up happens.
+
 - [ ] Explain the details of a Higher Order Component?
+
+A higher order component is a function that recieves a component as an arguement and returns a new component. Its used to share logic between components.
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+1. CSS files- Easier to use for beginners
+
+2. Inline styling- easy to add a quick style
+
+3. Styled components- Easier maintenance, turns styling into components as well
+
 
 ## Project Setup
 
